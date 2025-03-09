@@ -1,0 +1,63 @@
+body{
+  background-image: url("https://afar.brightspotcdn.com/dims4/default/7ce6c42/2147483647/strip/false/crop/2400x1529+0+0/resize/1486x947!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2F50%2F79%2F0aecc26b4af2919c8908975d30b8%2Fsource-dargent-at-la-digue-island-seychelles-zoltan-benyei-shutterstock.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Geologica", sans-serif
+}
+header{
+  text-align: center;
+  margin-top: 100px;
+  color:rgb(13, 227, 52);;
+  font-weight: 900;
+  font-size: 25px;
+  max-width: 780px;
+  display: block;
+  margin:  auto;
+  background-color:rgba(240, 240, 240, 0.8);
+  border-radius: 10px;
+}
+form{
+  margin: 10px;
+  display: flex;
+  background-color:rgba(240, 240, 240, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+}
+footer{
+  margin-bottom:none;
+  font-size: 13px;
+  margin-left: 10px;
+  color:black;
+  text-align: center;
+}
+.container{
+  max-width: 800px;
+  display: block;
+  margin:  auto;
+  
+}
+.user-input{
+  padding: 10px;
+  color:rgb(13, 227, 52);
+  border:1px solid grey;
+  width: 80%;
+  border-radius:15px;
+}
+.submit-button{
+  padding: 10px 25px;
+  border:none;
+  color:white;
+  background-color: rgb(13, 227, 52);
+  font-size: 16px;
+  margin-left: 5px;
+  width: 15%;
+  border-radius: 15px;
+}
+.user-output{
+  margin: 10px;
+  background-color:rgba(240, 240, 240, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+
+
+}
