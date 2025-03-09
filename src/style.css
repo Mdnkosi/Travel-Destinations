@@ -6,22 +6,28 @@ body{
 }
 header{
   text-align: center;
-  margin-top: 100px;
-  color:rgb(13, 227, 52);;
+  margin-top: 10px;
+  color: rgb(13, 227, 52);
   font-weight: 900;
   font-size: 25px;
-  max-width: 780px;
   display: block;
-  margin:  auto;
-  background-color:rgba(240, 240, 240, 0.8);
+  margin: auto;
+  background-color: rgba(240, 240, 240, 0.8);
   border-radius: 10px;
+  padding: 15px;
+  max-width: 800px;
+
 }
 form{
-  margin: 10px;
-  display: flex;
-  background-color:rgba(240, 240, 240, 0.8);
-  padding: 15px;
-  border-radius: 10px;
+  margin: 10px auto;
+display: block;
+background-color: rgba(240, 240, 240, 0.8);
+padding: 15px;
+border-radius: 10px;
+max-width: 800px;
+
+  
+  
 }
 footer{
   margin-bottom:none;
@@ -30,18 +36,14 @@ footer{
   color:black;
   text-align: center;
 }
-.container{
-  max-width: 800px;
-  display: block;
-  margin:  auto;
-  
-}
+
 .user-input{
   padding: 10px;
   color:rgb(13, 227, 52);
   border:1px solid grey;
   width: 80%;
   border-radius:15px;
+  font-size: 15px;
 }
 .submit-button{
   padding: 10px 25px;
@@ -54,10 +56,12 @@ footer{
   border-radius: 15px;
 }
 .user-output{
-  margin: 10px;
-  background-color:rgba(240, 240, 240, 0.8);
-  padding: 10px;
-  border-radius: 10px;
-
+color:rgb(13, 227, 52);
+background-color: rgba(240, 240, 240, 0.8);
+border-radius: 10px;
+max-width: 800px;
+display: block;
+margin: auto;
+padding: 15px;
 
 }
