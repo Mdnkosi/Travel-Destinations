@@ -54,6 +54,12 @@ footer{
   margin-left: 5px;
   width: 15%;
   border-radius: 15px;
+  transition: all 150ms ease-in-out;
+}
+.submit-button:hover{
+  color: rgb(13, 227, 52);
+  background-color: White;
+  cursor: pointer;
 }
 .user-output{
 color:rgb(13, 227, 52);
@@ -65,3 +71,13 @@ margin: auto;
 padding: 15px;
 
 }
+.traveling {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
